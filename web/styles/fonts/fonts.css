@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'sorts_mill_goudy';
+    src: url('sortsmillgoudy/GoudyStM-webfont.eot');
+    src: url('sortsmillgoudy/GoudyStM-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sortsmillgoudy/GoudyStM-webfont.woff') format('woff'),
+         url('sortsmillgoudy/GoudyStM-webfont.ttf') format('truetype'),
+         url('sortsmillgoudy/GoudyStM-webfont.svg#sorts_mill_goudyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* raleway-300 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('raleway/raleway-v11-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Raleway Light'), local('Raleway-Light'),
+       url('raleway/raleway-v11-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('raleway/raleway-v11-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('raleway/raleway-v11-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('raleway/raleway-v11-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('raleway/raleway-v11-latin-300.svg#Raleway') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,358 @@
+body{
+	font-family: 'Raleway';
+}
+.logo{
+	font-family: 'Raleway';
+    font-size: 28px;
+    line-height: 30px;
+    padding: 30px 0px 20px 10px;
+    color: #a5a5a5;
+}
+.logo span{
+	    color: #d9534f;
+}
+.sidebar{
+	width: 100%;
+	float: left;
+}
+.sidebar a{
+	text-decoration: none;
+}
+.mainbody{
+	width: 100%;
+	float:left;
+}
+@media screen and (min-width: 992px) {
+	.container{
+		width: 100%;
+		padding: 50px;
+	}
+	.logo{
+		font-family: 'Raleway';
+	    font-size: 36px;
+	    line-height: 30px;
+	    padding: 20px 0px 20px 0px;
+	    color: #a5a5a5;
+	}
+	.sidebar{
+		width: 20%;
+		float: left;
+	}
+	.mainbody{
+		width: 80%;
+		float:left;
+	}
+}
+
+.sidebar-nav-fixed {
+	background: transparent;
+    border: none;
+    box-shadow: none;
+    padding-left: 0px;
+}
+.nav>li>a{
+	/*font-family: 'sorts_mill_goudy';*/
+	font-family: 'Raleway';
+    line-height: 1.4em;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+    padding: .2em;
+}
+
+.img-style{
+	max-width: 100%;
+	max-height: 100%;
+}
+.col-md-4{
+	padding: 5px;
+}
+.footer{
+	font-family: 'Raleway';
+	    font-size: 11px;
+}
+@media screen and (min-width: 992px) {
+	.moveleft{
+		 float: left !important;
+	}
+	.moveright{
+		 float: right !important;
+	}
+}
+/*.galleria{ width: 80%; height: 400px; background: #fff }*/
+.dropzone{
+    border: 2px dashed #0087F7;
+    border-radius: 5px;
+    background: white;
+    margin: 3% 0 3% 0;
+}
+.dz-message{
+    font-family: 'Raleway';
+    font-size: 25px;
+
+}
+.form-inline .control-label{
+	font-size: 15px;
+	width: 18%
+}
+.form-inline .form-group {
+    height: 80px;
+    width: 49%;
+}
+.form-inline  .form-control{
+	width: 50% !important;
+}
+.logout{
+	padding: 1px 0 1px 0;
+	width: 100%;
+	text-align: left;
+
+	display: block;
+	position: relative;
+	text-decoration: none;
+	font-weight: 400;
+	line-height: 1.6em;
+	color: white; 
+}
+.logout:hover, .logout:focus {
+	text-decoration: none;
+	background-color: #eee;
+}
+
+.thumb-caption {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    padding: 5px 14px;
+    background: #000;
+    opacity: .6;
+    color: #fff;
+    /*font-family: "futura-pt",sans-serif;*/
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: right;
+    font-weight: bold;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.main-navigation {
+  clear: both;
+  display: block;
+  /*width: 98%;*/
+  color: #fff;
+  /*font-family: "Lato", sans-serif;*/
+  /*font-weight: 300;*/
+  /*font-size: 1em; */
+}
+  .main-navigation ul {
+    display: none;
+    list-style: none;
+    margin-left: 0; 
+}
+
+.main-navigation a {
+  display: block;
+  padding: 0.8em 1em;
+  position: relative;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: white; 
+}
+
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+/*  background: #ac9354;
+  color: #fff; */
+}
+
+.main-navigation ul ul {
+/*  display: none;
+  margin-left: 0.8em; */
+}
+
+.main-navigation ul .toggled-on {
+  /*display: block; */
+}
+
+.main-navigation a,
+.main-navigation ul ul li:lastchild a {
+  /*border-bottom: 1px solid white; */
+}
+
+.main-navigation ul li:last-child a {
+  /*border-bottom: none; */
+}
+
+.main-navigation li {
+/*  border-top: 1px solid #eaeaea;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+  position: relative; */
+}
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current_page_ancestor > a {
+  font-weight: 700; }
+
+.main-navigation .nav-menu > ul > li:first-child,
+.main-navigation .nav-menu > li:first-child {
+  /*border-top: 0; */
+}
+
+.main-navigation .menu-item-has-children > a,
+.main-navigation .page_item_has_children > a {
+  padding-right: 48px; }
+
+
+.no-js .main-navigation ul ul {
+  display: block; }
+
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block; }
+
+.menu-toggle {
+  position: fixed;
+  z-index: 100;
+  bottom: 1em;
+  left: 1em;
+    padding: 0.5em;
+    font-size: 1.1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color:  #d9534f ;
+  color: #fff;
+  border: solid 2px #a5a5a5;
+  transition: all ease-out 400ms; 
+}
+
+.menu-toggle.hide {
+  bottom: -2.5em; }
+
+/* Make sure the button doesn't hide when menu is open. */
+.toggled .menu-toggle.hide {
+  bottom: 1em; 
+}
+
+@media screen and (min-width: 992px) {
+  .menu-toggle {
+    display: none; }
+
+  .main-navigation ul {
+    display: block; } 
+
+}
+
+
+/* Hovering menu */
+.main-navigation.toggled {
+  position: fixed;
+  bottom: 0;
+  padding: 1em;
+  z-index: 1; 
+}
+
+.nav-menu {
+  padding: 1em;
+  margin-bottom: 3.5em;
+  /*color: #fff;*/
+  background-color: #d9534f;
+
+}
+@media screen and (min-width: 992px) {
+	.nav-menu {
+	  padding: 0;
+	  background-color: #fff; 
+	}
+}
+.main-navigation.toggled ul {
+  max-height: calc(100vh - 8em);
+  overflow-y: auto; }
+
+.main-navigation.toggled ul ul {
+  display: none; }
+
+.main-navigation.toggled ul ul.toggled-on,
+.main-navigation.toggled ul ul.toggled-on > ul {
+  display: block; 
+}
+
+/* Horizontal menu on wide screens */
+@media screen and (min-width: 992px) {
+  /* Position the menu in the header */
+  .main-navigation,
+  .main-navigation.toggled {
+    /*position: relative;*/
+    min-height: 3.5em;
+    }
+
+  .nav-menu {
+    padding: .3em 0 0 0;
+    background-color: transparent; }
+
+  .main-navigation ul,
+  .main-navigation.toggled ul {
+    max-height: none;
+    margin: 0;
+    padding-left: 0;
+    /*text-align: center; */
+}
+
+  .main-navigation.toggled ul {
+    overflow-y: visible; }
+
+
+  .main-navigation a, .logout,
+  .main-navigation ul ul li:last-child a {
+    border-bottom: none; 
+    color: #000;
+	}
+
+
+}
+    
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden; }
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  float: left;
+  width: 50%; }
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%; }
+
+/*--------------------------------------------------------------
+## Tables
+--------------------------------------------------------------*/
+@media screen and (min-width: 992px) {
+	.table{
+		/*width: 90%;*/
+	}
+}
+
+.pagination > .active > a{
+	    z-index: 0;
+}
